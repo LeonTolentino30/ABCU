@@ -3,7 +3,7 @@
 // Author      : Juan Jose Narvarte
 // Version     : 1.0
 // Copyright   : Copyright © 2023 SNHU COCE
-// Description : Hello World in C++, Ansi-style
+// Description : Project two : ABCU
 //============================================================================
 
 #include <iostream>
@@ -21,7 +21,7 @@ double strToDouble(string str, char ch);
 
 // Structure to hold Course information
 struct Course {
-    string CourseId; 
+    string CourseId; // unique identifier
     string CourseName;
     string PreReq1;
     string PreReq2;
@@ -30,7 +30,7 @@ struct Course {
     }
 };
 
-// Structure for tree
+// Structure for Binary tree
 struct Node {
     Course course;
     Node* left;
@@ -45,7 +45,7 @@ struct Node {
     }
 };
 
-// Defines class to hold data
+// Defines class to store information
 class BinarySearchTree {
 
 private:
@@ -64,16 +64,16 @@ public:
     Course Search(string CourseId);
 };
 
-// Initialize variables
+// Create variables
 BinarySearchTree::BinarySearchTree() {
     root = nullptr;
 }
 
+// deletes nodes
 BinarySearchTree::~BinarySearchTree() {
-    // Deletes every node
 }
 
-// Goes through the tree in order
+// access binry tree in order
 void BinarySearchTree::InOrder() {
     this->inOrder(root);
 }
@@ -93,7 +93,7 @@ void BinarySearchTree::Remove(string CourseId) {
     this->removeNode(root, CourseId);
 }
 
-// Searches the tree for a course
+// starts search for course in the binary tree
 Course BinarySearchTree::Search(string CourseId) {
     Node* current = root;
     while (current != nullptr) {
@@ -144,7 +144,7 @@ void BinarySearchTree::inOrder(Node* node) {
     }
 }
 
-// Searches for then removes a node from the tree
+// search nodes to remove and add nodes to the tree
 Node* BinarySearchTree::removeNode(Node* node, string CourseId) {
     if (node == nullptr) {
         return node;
@@ -225,11 +225,7 @@ void loadBids(string csvPath, BinarySearchTree* bst) {
     }
 }
 
-// Converts a string to a double and removes unwanted characters
-double strToDouble(string str, char ch) {
-    str.erase(remove(str.begin(), str.end(), ch), str.end());
-    return atof(str.c_str());
-}
+
 
 int main(int argc, char* argv[]) {
 
