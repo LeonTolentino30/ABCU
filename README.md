@@ -1,1 +1,10 @@
-# ABCU
+WHAT WAS THE PROBLEM YOU WERE SOLVING IN THE PROJECTS FOR THIS COURSE?
+The Problem I was solving was making a code to open a csv file from a Binary search tree , and the file contains computer science courses with prequisites. 
+HOW DID YOU APPROACH THE PROBLEM?
+I recapped on the sources provided in the module for cs300, alot of useful and helpful resources that enabled me t understand how the binary search tree works. Then I went branch out on other sources outside of the SNHU database. Stack Overflow is really helpful when explaining why certain errors accur in a code. I was able to profecciently take notes and adapt to get this project done.
+HOW DID YOU OVERCOME ANY ROADBLOCKS YOU ENCOUNTERED WHILE GOING THROUGH THE ACTIVITIES OR PROJECT ?
+YEs alot of link error codes and warnings were present when making this particuler code for this project. Parsing a .csv file is very new to me and it was challlenging at most. A comma seperated file was easy to make but to upload into a binary search tree or should say implement the tree to locate and open a csv file was tedious at most. 
+HOW HAD YOUR WORK ON THIS PROJECT EXPANDED YOUR APPROACH TO DESIGNING SOFTWARE AND DEVELOPING PROGRAMS?
+This project has shown me how imprtant it is to have a pseudocode or flowchart made before starting any projects. A layout or an outline of task that shows what the code is and how you are going to implement can be so beneficial in saving time. I learn that creating and debugging your code is a big part of the job, however; When you plan what kind of code you are going to make it will make a difference in the end
+HOW WAS YOUR WORK ON THIS PROJECT EVOLVED THE WAY YOU WRITE PROGRAMS THAT ARE MAINTAINABLE, READABLE, AND ADAPTABLE?
+Annotate every line and decribe what each line or section of your code does so that its easily readable. In ways that I evolved I started to examine what each line of my code does and if I had any errors present I would go back to that line and either reimplement or rephrase the code in a manor that works.  organizing my code is key in getting things done.
